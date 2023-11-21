@@ -29,7 +29,7 @@ void selection_sort(int *array, size_t size)
 		}
 		swp = array[i];
 		array[i] = array[tmp];
-		array[tmp] = swap;
+		array[tmp] = swa;
 		if (flag != 0)
 			print_array(array, size);
 	}
